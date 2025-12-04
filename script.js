@@ -105,7 +105,7 @@ gsap.from(".services_header > *", {
 ScrollTrigger.matchMedia({
   "(min-width: 769px)": function () {
     gsap.to(".reviews", {
-      marginTop: "-20vh",
+      marginTop: "-5vh",
       scrollTrigger: {
         trigger: ".services",
         start: "center center",
